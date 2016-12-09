@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads Adobe Flash Player installer, imports into Munki.</string>
     <key>Identifier</key>
-    <string>org.ktufsd.munki.FlashPlayerNoRepackage</string>
+    <string>com.github.cjduckk.munki.FlashPlayerNoRepackage</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -33,7 +33,7 @@
     <key>MinimumVersion</key>
     <string>0.6.0</string>
     <key>ParentRecipe</key>
-    <string>org.ktufsd.download.FlashPlayer</string>
+    <string>com.github.cjduckk.download.FlashPlayer</string>
     <key>Process</key>
     <array>
         <dict>
